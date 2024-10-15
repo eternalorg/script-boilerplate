@@ -1,14 +1,17 @@
 # FiveM-TypeScript
-easy to use just type
-## npm i 
-this will install everything needed for fivem coding. 
+
+Easy to use, just type
+
+## pnpm i
+
+This will install everything needed for FiveM coding.
 
 ## installs
 
-npm i = installs all profiles for package and fivem
+pnpm = installs all profiles for package and FiveM
 
 ## builds
 
-npm run build = for production. 
+pnpm build = for production.
 
-npm run watch = for dev instant updates.
+pnpm watch = for dev instant updates.

@@ -1,10 +1,10 @@
-import axios from "axios";
+import axios from 'axios';
 
 export const useSendNui = async <T = unknown,>(
   nuiEndpoint: string,
   eventName: string,
   data?: unknown,
-  details?: { data: T; delay?: number }
+  details?: { data: T; delay?: number },
 ): Promise<T> => {
   if (details) {
     return new Promise((resolve) => {

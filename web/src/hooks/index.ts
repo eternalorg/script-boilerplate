@@ -1,1 +1,1 @@
-export * from './SendNui';
+export * from './useNuiEvent.ts';

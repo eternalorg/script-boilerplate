@@ -2,7 +2,7 @@
 
 A modern, easy-to-use TypeScript boilerplate for FiveM development with React UI support. This boilerplate includes custom hooks for seamless communication between FiveM and your React UI.
 
-## 📦 Installation
+## Installation
 
 This project has two main parts that need dependency installation:
 
@@ -19,7 +19,7 @@ cd web
 pnpm install
 ```
 
-## 🛠️ Build Commands
+## Build Commands
 
 ### Development
 ```bash
@@ -42,7 +42,7 @@ cd web
 pnpm dev
 ```
 
-## 🎯 Custom Hooks
+## Custom Hooks
 
 This boilerplate includes two powerful custom hooks for FiveM-React communication:
 
@@ -268,7 +268,7 @@ DebugData([
 ], 1000); // 1 second delay
 ```
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 script-boilerplate/
@@ -291,19 +291,19 @@ script-boilerplate/
 └── package.json
 ```
 
-## 🎮 How It Works
+## How It Works
 
 1. **FiveM Communication**: The `useNuiEvent` hook creates a bridge between your FiveM Lua scripts and React components
 2. **Browser Testing**: The `useReactMessage` hook combined with `DebugData` allows you to test your UI in a regular browser without FiveM
 3. **Environment Detection**: The hooks automatically detect if they're running in FiveM or a browser and behave accordingly
 
-## 📝 Development Workflow
+## Development Workflow
 
 1. **Setup**: Install pnpm globally, then run `pnpm install` in root and `cd web && pnpm install`
 2. **UI Development**: Use `cd web && pnpm dev` to develop your React UI in the browser with mock data
 3. **FiveM Integration**: Use `pnpm watch` to build and test with actual FiveM
 4. **Production**: Use `pnpm build` for optimized production builds
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to submit issues and enhancement requests!
